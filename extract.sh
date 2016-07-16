@@ -1,16 +1,16 @@
 #!/bin/bash
 # .SYNOPSIS
-#     Convert RIR prefix delegation file into CSV file
+#	Convert RIR prefix delegation file into CSV file
 # .EXAMPLE 1
-#     ./extract.sh ipv4 > output.csv 
-#	  	the command above will extract all ipv4 delegation and convert
-#     it into CSV file in output.csv
+#	./extract.sh ipv4 > output.csv 
+#	the command above will extract all ipv4 delegation and convert
+#	it into CSV file in output.csv
 # .EXAMPLE 2
-#     ./extract.sh ipv4 /home/rio/url.list > output.csv 
-#	  	read from specified url.list file
+#	./extract.sh ipv4 /home/rio/url.list > output.csv 
+#	read from specified url.list file
 # .NOTES
-#     Author		: Rio Maulana
-#     Created		: July 15th, 2016
+#	Author		: Rio Maulana
+#	Created		: July 15th, 2016
 
 # Getting directory where file resides
 SCRIPT=$(readlink -f $0)
